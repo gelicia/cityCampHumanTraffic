@@ -12,25 +12,26 @@
   -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/lib/d3.v3.min.js"></script>
+    <script src="js/lib/d3-tip.js"></script>
+    <script src="js/lib/topojson.v1.min.js"></script>
     <script type = "text/javascript" src="js/main.js"></script>
   </head> 
 
-  <body>
+  <body onload="loadData();">
    <h1>Human Trafficking in Minnesota</h1>
     <div id="left"></div>
     <div id="content">
       <div id="intro">
-        <p>Lorum ipsem whatever.</p>
+        <p>Lorum ipsem aasdasdasd.</p>
       </div>
-      <svg id="chartMain"></svg>
+      <div>
+        <h2>Where Are Calls Coming In?</h2>
+        <svg id="mapMain"></svg>
+      <div>
     </div>
     <div class="footer">
-      <p>Created by asdasdasd</a></p>
+      <p>Created by fsdfsdf for <a href="http://mndataopener.com/">CityCampMN</a></p>
     </div>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        loadData();
-      });
-    </script>
   </body>
 </html>
