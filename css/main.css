@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+
+svg#chartMain {
+	margin-top: 10px;
+}
+
+h1 {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+a {
+  color: #428BCA;
+  text-decoration: none;
+}
+
+#left {
+position: absolute;
+left: 0;
+width: 100px;
+}
+
+#content {
+margin: 0 50px;
+border-top: none;
+background-color: #ffffff;   
+padding: 5px;
+}
+
+#right {
+position: absolute;
+right: 0;        
+width: 100px;
+background-color: #f9c;
+}
+
+div#intro {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+p.chartNav {
+	margin: 3px;
+	font-weight: bold;
+}
+
+select.drgSelect {
+	width: 500px;
+}
+
+.barLabel, .barValueLabel {
+	pointer-events : none;
+}
+
+.footer {
+	background-color: #E8E8E8;
+	margin-left: 3px;
+	margin-top: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 10px;
+}
+
+.footer p {
+	margin-top: 10px;	
+}
+
+.strong{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.d3-tip {
+    font-size: 12px;
+    padding: 9px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+  }
