@@ -100,6 +100,19 @@ select.drgSelect {
 	margin-bottom: 20px;
 }
 
+.twoCol {
+	clear:both;
+}
+
+.oneCol {
+	clear: both;
+}
+
+#convictData {
+	width: 75%;
+	margin-top: 10px;
+}
+
 .d3-tip {
     font-size: 12px;
     padding: 9px;
